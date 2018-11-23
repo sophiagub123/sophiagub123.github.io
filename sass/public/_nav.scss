@@ -1,0 +1,12 @@
+.ui-navTitle {
+    display: block;
+    line-height: 60px;
+    // padding-left: 33px;
+    font-size: 18px;
+    color: #333;
+    &>span {
+        &.active {
+            color: #0089e9;
+        }
+    }
+}

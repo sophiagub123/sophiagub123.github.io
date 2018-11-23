@@ -1,0 +1,49 @@
+#leftNav {
+    display: block;
+    float: left;
+    width: 280px;
+    min-height: 360px;
+    margin-top: 20px;
+}
+
+.ui-leftNav {
+    display: block;
+    font-size: 18px;
+    li {
+        position: relative;
+        width: 236px;
+        padding-left: 44px;
+        height: 59px;
+        line-height: 59px;
+        border-bottom: 1px solid #e6e6e6;
+        background: #fff;
+        &:hover {
+            color: #0089e9;
+        }
+        &:hover:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 60px;
+            background: #0089e9;
+        }
+        & > a {
+            display: block;
+            text-decoration: none;
+        }
+        &.is-active {
+            color: #0089e9;
+        }
+        &.is-active:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 60px;
+            background: #0089e9;
+        }
+    }
+}

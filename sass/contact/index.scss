@@ -1,0 +1,54 @@
+@import "../_config";
+@import "../public/_header";
+@import "../public/_footer";
+.content, .ui-companyTop{
+    width: 100%;
+}
+.ui-company-contact{
+    width: 1200px;
+    padding: 10px 0;
+    margin: 0 auto;
+    &>h2{
+        line-height: 100px;
+        font-size: 48px;
+        color: #0089e9;
+        font-weight: 700;
+    }
+    .quotation{
+        font-size: 16px;
+        color: #333;
+        height: auto;
+        overflow: hidden;
+        line-height: 30px;
+        margin: 27px auto;
+    }
+    .ui-contant-block{
+        width: 1200px;
+        height: 360px;
+        margin: 30px auto 50px;
+        padding-bottom: 50px;
+        .ui-block-content{
+            float: left;
+            width: 600px;
+            visibility: visible;
+            animation-delay: 0.3s;
+            &>h3{
+                font-size: 26px;
+                margin-bottom: 20px;
+            }
+            .ui-content-detail{
+                font-size: 16px;
+                line-height: 30px;
+                padding-top: 10px;
+            }
+        }
+        .ui-block-address{
+            width: 600px;
+            float: right;
+            &>img{
+                width: 498px;
+                height: 360px;
+            }
+        }
+    }
+}

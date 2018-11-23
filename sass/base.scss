@@ -1,0 +1,51 @@
+// 导入公共scss模块
+@import "base/base";
+@import "config";
+
+html,
+body {
+    line-height: 1;
+    font-size: $rootFontSize;
+    color: $mainFontColor;
+    background-color: #eee;
+    -webkit-tap-highlight-color: transparent;
+    a {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+body {
+    min-width: 1242px;
+}
+
+.ui-center {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#nav{
+    display: block;
+    height: 60px;
+    background-color: #FFF;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+#footer{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 280px;
+    margin: 0 auto;
+    background-color: #2D3237;
+}
+
+// @import "public/header";
+// @import "public/footer";
+// @import "public/nav";
+// @import "public/leftNav";
+// @import "public/topbar";
+// @import "public/navbar";
+// @import "public/menu";
