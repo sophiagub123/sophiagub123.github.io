@@ -71,18 +71,13 @@
     }
     .ui-production-list{
         width: 1149px;
+        height: 300px;
         margin: 0 auto 20px;
         height: auto;
         overflow: hidden;
-        .big{
-            float: left;
-            width: 564px;
-            height: 449px;
-        }
-        .list{
-            float: right;
-            width: 564px;
-            height: 449px;
+        .swiper-slide{
+            width: 100%;
+            height: 300px;
         }
     }
 }

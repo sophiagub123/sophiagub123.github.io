@@ -1,7 +1,7 @@
 /*
 ----------------------------------------------------
  */
-window.APPMODE = 'pub'; // dev:开发模式, pub:发布模式
+window.APPMODE = 'dev'; // dev:开发模式, pub:发布模式
 window.VERSION = '0.0.1'; // 代码版本号, 每次发布之前, 请更新, 小版本号自增+1
 window.MOCKJS = false; // 是否打开mockjs, 正式版发布, 或者测试接口数据需要关闭
 window.CONFIG = {}; // 全局配置

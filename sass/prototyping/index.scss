@@ -84,7 +84,7 @@ body{
             display: block;
             top: 32px;
             float: left;
-            width: 240px;
+            width: 25%;
             height: 40px;
             line-height: 40px;
             text-align: center;
@@ -185,6 +185,22 @@ body{
                 font-size: 16px;
                 padding-left: 20px;
             }
+        }
+    }
+    .ui-production-list{
+        width: 1149px;
+        margin: 0 auto 20px;
+        height: auto;
+        overflow: hidden;
+        .big{
+            float: left;
+            width: 564px;
+            height: 449px;
+        }
+        .list{
+            float: right;
+            width: 564px;
+            height: 449px;
         }
     }
 }

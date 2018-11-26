@@ -45,16 +45,25 @@
     display: block;
     position: relative;
     width: 1200px;
-    height: 540px;
+    height: 750px;
     margin: 0 auto;
     overflow: hidden;
-    .ui-profile-left{
+    .ui-profile-video{
         display: block;
         position: absolute;
-        top: 75px;
+        top: 40px;
         left: 70px;
         width: 480px;
-        height: 400px;
+        height: 270px;
+        background-color: #ccc;
+    }
+    .ui-profile-img{
+        display: block;
+        position: absolute;
+        top: 350px;
+        left: 70px;
+        width: 480px;
+        height: 360px;
     }
     .ui-profile-right{
         float: right;
