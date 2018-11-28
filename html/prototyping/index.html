@@ -13,9 +13,30 @@
 
 <body>
     <div id="header"></div>
+    
+    </div>
     <div class="content">
         <div class="ui-prototyping">
-            <img src="../../image/prototyping/prototyping-top.jpg" />
+            <div class="ls_top">
+                <a href="javascript:;" class="prev"><img src="../../image/prototyping/left.png"></a>
+                <a href="javascript:;" class="next"><img src="../../image/prototyping/right.png"></a>
+                <div class="bd">
+                    <div class="tempWrap" style="overflow:hidden; position:relative; width:1270px">
+                        <ul style="width: 2600px; position: relative; overflow: hidden; padding: 0px; margin: 0px; left: -1270px;">
+                            <li class="clone" style="float: left; width: 1249px;">
+                                <a>
+                                    <img src="../../image/prototyping/prototyping-top-01.jpg" width="1249" height="366">
+                                </a>
+                            </li>
+                            <li style="float: left; width: 1249px;">
+                                <a>
+                                    <img src="../../image/prototyping/prototyping-top-02.jpg" width="1249" height="366">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="ui-top-item">
             <ul>
@@ -292,9 +313,10 @@
     <script src="../../script/lib/template/wow.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         new WOW().init();
+	    jQuery(".ls_top").slide({mainCell:".bd ul",autoPage:true,effect:"leftLoop",autoPlay:true,interTime:2500,vis:2});
         jQuery(".ls_lp").slide({mainCell:".bd ul",autoPage:true,effect:"leftLoop",autoPlay:true,interTime:3000,vis:2});
     </script>
-    <style>.ls_lp .bd ul li img{display:block;}</style>
+    <style>.ls_top .ls_lp .bd ul li img{display:block;}</style>
 </body>
 
 </html>

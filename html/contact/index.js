@@ -16,12 +16,4 @@ define(function(require, exports, module) {
       galleryTop: true,
       galleryThumbs: true
   });
-  var bannerActive = new Swiper('#bannerActive', {
-      pagination: '.swiper-pagination',
-      paginationClickable: true,
-      autoplay: 3000,
-      loop: false,
-      galleryTop: true,
-      galleryThumbs: true
-  });
 });
